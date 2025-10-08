@@ -1,4 +1,4 @@
-import { auth } from "@clerk/nextjs/server";
+/*import { auth } from "@clerk/nextjs/server";
 import { StreamChat } from "stream-chat";
 import { NextResponse } from 'next/server'; // Import NextResponse for proper API responses
 const api_key = "99ue9bx5k6rp";
@@ -17,4 +17,5 @@ export async function GET() {
 
     console.log(token);
     return NextResponse.json({ token }); // Respond with the token
-}
+}*/
+
