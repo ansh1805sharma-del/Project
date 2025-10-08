@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "npm": "npm run",
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
@@ -11,6 +12,7 @@
   "dependencies": {
     "@clerk/nextjs": "^6.31.9",
     "@radix-ui/react-slot": "^1.2.3",
+    "chat": "github:ansh1805sharma-del/Project",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.542.0",
