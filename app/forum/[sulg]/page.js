@@ -4,18 +4,12 @@
 
 import ChatForum from "@/components/ui/ChatForum"
 
-// export default async function Page({ params }){
-//     const slug = (await params).slug
-//     return <>ChatForum</>
-// }
-
-export async function generateStaticParams() {
-  return [
-    { slug: 'general' },
-    { slug: 'help' },
-    { slug: 'feedback' },
-  ];
+export default async function Page({ params }){
+    const slug = (await params).slug
+    return <>ChatForum</>
 }
+
+
 
 
 
