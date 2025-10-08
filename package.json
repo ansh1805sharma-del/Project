@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "npm": "npm run",
     "dev": "next dev --turbopack",
+    "npx": "npx",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint"
